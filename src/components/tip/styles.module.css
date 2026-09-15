@@ -21,6 +21,6 @@
     margin-top: 0.31rem;
 }
 
-.tip img {
+.tip > img {
     height: 2rem;
 }
