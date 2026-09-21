@@ -18,7 +18,7 @@ export function LettersUsed({ data }: props) {
         <div>
             {
                 data.map(({value, correct})=> (
-                    <Letter value="X" size="small" color="correct"/>
+                    <Letter key={value} value={value} size="small" color={correct ? "correct" : "wrong"}/>
                 ))
             }
             
